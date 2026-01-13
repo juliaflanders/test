@@ -1,3 +1,6 @@
+@namespace tc 
+	url("http://www.tiffanyfranchescaccruz.com/ns"); 
+
 teiHeader{
 	display:none;
 }
@@ -24,7 +27,7 @@ persName {color:red;}
 
 placeName {color:green;}
 
-raceDesc {color:green;}
+tc|raceDesc {color:green;}
 
 salute {display:block;
 	font-style:italic;}
