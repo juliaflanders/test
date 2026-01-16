@@ -1,7 +1,5 @@
-@namespace 
-	"http://www.tei-c.org/ns/1.0";
-@namespace tc 
-	"http://www.tiffanyfranchescaccruz.com/ns"; 
+@namespace "http://www.tei-c.org/ns/1.0";
+@namespace tc "http://www.tiffanyfranchescaccruz.com/ns"; 
 
 teiHeader{
 	display:none;
@@ -28,6 +26,8 @@ closer {margin-left: 3em;
 persName {color:red;}
 
 placeName {color:green;}
+
+raceDesc {color:red;}
 
 tc|raceDesc {color:green;}
 
