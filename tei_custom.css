@@ -1,5 +1,23 @@
 @namespace url("http://www.tei-c.org/ns/1.0");
-@namespace tc url("http://www.tiffanyfranchescaccruz.com/ns"); 
+@namespace ns url(""); 
+
+/* This stylesheet is just a starting point for styling TEI/XML files. 
+ * It includes selectors for some basic TEI elements, and some ugly styling for them.
+ * To adapt it for your own encoding:
+ * 		1. add selectors for the elements you are actually using
+ * 		2. delete the selectors for elements you aren't actually using
+ * 		3. modify the styles so that the text looks the way you want 
+ * */
+
+/* To include styles for custom elements you have created:
+ * 		1. add the URL for your namespace on line 2 above
+ * 		2. add the name of your new element instead of "element_name" on line 19
+ * 		3. add whatever styling you want for the element
+ * 		4. copy line 19 if needed to add styles for additional new elements
+ *  */
+
+ns|element_name {color:green;}
+
 
 teiHeader{
 	display:none;
@@ -27,7 +45,6 @@ persName {color:red;}
 
 placeName {color:green;}
  
-tc|raceDesc {color:green;}
 
 salute {display:block;
 	font-style:italic;}
@@ -70,7 +87,7 @@ list[type="numbered"] > item {
 }
 
 list[type="numbered"] > item:before { 
-	content: attr(n) ". my stuff here"; 
+	content: attr(n) ". "; 
 	}
 	
 	
