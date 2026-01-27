@@ -7,13 +7,16 @@
  * 		1. add selectors for the elements you are actually using
  * 		2. delete the selectors for elements you aren't actually using
  * 		3. modify the styles so that the text looks the way you want 
+ * 		4. to tell your TEI files where to find this stylesheet, paste this code 
+ * 			into each TEI file (it should be the second line):
+ * 			<?xml-stylesheet type="text/css" href="html.css"?>
  * */
 
 /* To include styles for custom elements you have created:
  * 		1. add the URL for your namespace on line 2 above
- * 		2. add the name of your new element instead of "element_name" on line 19
+ * 		2. add the name of your new element instead of "element_name" on line 22
  * 		3. add whatever styling you want for the element
- * 		4. copy line 19 if needed to add styles for additional new elements
+ * 		4. copy line 22 if needed to add styles for additional new elements
  *  */
 
 ns|element_name {color:green;}
